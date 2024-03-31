@@ -1,14 +1,10 @@
-import Carlos.carlosMain;
-import HingYip.hingMain;
+import Map.map;
+
  public class main{
-    
-   private static hingMain HingYip;
-   private static carlosMain Carlos;
+  private static map map;
+ 
  public static void main(String[] args)
     {
-        System.out.println("hi");
-        HingYip = new hingMain();
-        Carlos = new carlosMain();
-
+     map = new map();
     }
  }
